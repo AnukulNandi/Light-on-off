@@ -1,0 +1,133 @@
+
+        body {
+            background-color: antiquewhite;
+
+        }
+
+        @media only screen and(max-width:400px) {
+
+            body {
+                background-color: cyan;
+
+
+            }
+        }
+
+
+        .main {
+            box-shadow: -10px -10px 5px #8b5757fc;
+            border: 2px solid brown;
+            width: 290px;
+            height: 300px;
+            margin-left: 200px;
+            margin-top: 80px;
+            text-align: center;
+            text-decoration: dotted;
+            position: absolute;
+            display: block;
+            font-size: 20px;
+
+        }
+
+        .text {
+
+            margin-top: 20px;
+            text-align: center;
+            text-decoration: dotted;
+            background-color: black;
+            color: antiquewhite;
+            font-size: 15px;
+        }
+        
+    #teXt1 {
+visibility:hidden;}
+
+        .btn {
+
+            background-color: #27222775;
+           
+            border: 2px solid yellow;
+            width: 260px;
+            margin-top: 50px;
+            padding-left: 50px;
+            border-radius: 20px;
+            cursor: pointer;
+         
+            margin-left: 750px;
+
+            font-size: 15px;
+        }
+        
+
+        .img {
+            box-shadow: -10px -10px 9px #8a2c28fa;
+            border: 2px solid cyan;
+            /* top: 0px;
+            right: 0px; */
+
+            margin-top: 130px;
+            margin-left: 750px;
+            display: inline-block;
+            width: 200px;
+            padding-left: 100px;
+            border-radius: 50px;
+            background-color: white;
+        }
+
+      
+        #light {
+            background-color: #11eb09;
+            color: darkred;
+            cursor: pointer;
+            border-radius: 40px;
+            padding: 23px;
+            box-shadow: 1px 1px 5px 5px #937f7f;
+        }
+
+        #light:focus {
+            padding: 25px;
+            background-color: yellow;
+            filter: blur(1.5px);
+            color: black;
+        }
+
+        /* #light:visited{padding: 24px; filter: blur(11px);} */
+
+        #dark {
+            background-color: #dc0808;
+            color: #083804;
+            margin: 50px;
+            position: relative;
+            padding: 20px;
+            cursor: pointer;
+            border-radius: 50px;
+            box-shadow: 1px 1px 5px 5px #937f7f;
+
+        }
+
+        #dark:focus {
+            padding: 25px;
+            background-color: black;
+            color: white;
+            filter: blur(1.5px);
+        }
+        .show:focus {
+            
+            background-color: #c5163bab;
+            color: #081544;
+            filter: blur(0.5px);
+            border-radius: 15px;
+        }
+        .show {
+            padding: 15px;
+            background-color: #d21218;
+            color: aliceblue;
+            margin-top: 0px;
+            margin-left: 20px;
+            display: inline;
+            position: fixed;
+            border-radius: 15px;
+            cursor: pointer;
+           
+        }
+    
